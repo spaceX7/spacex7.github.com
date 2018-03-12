@@ -297,6 +297,21 @@
       
       
       
+ 		<div id="container"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+		<script>
+			var gitment = new Gitment({
+  			id: 'location.href',
+  			owner: 'spaceX7',
+  			repo: 'spacex7.github.io',
+  			oauth: {
+    			client_id: 'eca229aaba0c7042d881',
+    			client_secret: '4d79113c488297d6f86db23cfd5ab0e93591e60b',
+  			},
+			})
+			gitment.render('container')
+		</script>
     </div>
     
     
